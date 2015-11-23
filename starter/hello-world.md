@@ -32,7 +32,7 @@ var server = app.listen(3000, function () {
 ~~~
 
 The app starts a server and listens on port 3000 for connection. It will respond with "Hello World!" for requests
-to the root URL (`/`) or _route_. For every other path, it will respond with a **404 Not Found**.
+to the root URL (`/`) or _route_. For every other path, it will respond with a **404 Not Found** message.
 
 <div class="doc-box doc-notice" markdown="1">
 The `req` (request) and `res` (response) are the exact same objects that Node provides, so you can invoke
